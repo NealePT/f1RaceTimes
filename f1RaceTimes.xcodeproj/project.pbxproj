@@ -20,6 +20,7 @@
 		2083FB5629FACFB5008F415A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2083FB5929FACFB5008F415A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2083FB5B29FACFB5008F415A /* f1RaceTimes.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = f1RaceTimes.entitlements; sourceTree = "<group>"; };
+		2083FB6129FAD402008F415A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +53,7 @@
 		2083FB5129FACFB3008F415A /* f1RaceTimes */ = {
 			isa = PBXGroup;
 			children = (
+				2083FB6129FAD402008F415A /* Info.plist */,
 				2083FB5229FACFB3008F415A /* f1RaceTimesApp.swift */,
 				2083FB5429FACFB3008F415A /* ContentView.swift */,
 				2083FB5629FACFB5008F415A /* Assets.xcassets */,
@@ -274,6 +276,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = f1RaceTimes/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -301,6 +304,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = f1RaceTimes/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
