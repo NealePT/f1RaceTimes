@@ -11,11 +11,7 @@ struct swiftui_menu_barApp: App {
     @State var currentNumber: String = "1"
     
     var body: some Scene {
-        // Remove this
-        // WindowGroup {
-        //     ContentView()
-        // }
-        MenuBarExtra(currentNumber, systemImage: "\(currentNumber).circle") {
+        MenuBarExtra(currentNumber, systemImage: "flag") {
             Button("One") {
                 currentNumber = "1"
             }
