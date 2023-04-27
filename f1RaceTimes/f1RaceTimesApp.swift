@@ -13,5 +13,6 @@ struct f1RaceTimesApp: App {
         WindowGroup {
             ContentView()
         }
+        // test
     }
 }
