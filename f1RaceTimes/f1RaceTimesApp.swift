@@ -8,26 +8,23 @@ import SwiftUI
 
 @main
 struct swiftui_menu_barApp: App {
-    @State var currentNumber: String = "1"
+    @State var currentRace: String = "Bahrain"
     
     var body: some Scene {
-        MenuBarExtra(currentNumber, systemImage: "flag") {
-            Button("One") {
-                currentNumber = "1"
+        MenuBarExtra(currentRace, systemImage: "flag") {
+            Button("Bahrain") {
+                currentRace = "Bahrain"
             }
-            .keyboardShortcut("1")
-            Button("Two") {
-                currentNumber = "2"
+            Button("Saudi Arabia") {
+                currentRace = "Saudi Arabia"
             }
-            .keyboardShortcut("2")
-            Button("Three") {
-                currentNumber = "3"
+            Button("Australia") {
+                currentRace = "Australia"
             }
-            .keyboardShortcut("3")
             Divider()
             Button("Quit") {
                 NSApplication.shared.terminate(nil)
-            }.keyboardShortcut("q")
+            }
         }
     }
 }
