@@ -12,11 +12,6 @@ struct swiftui_menu_barApp: App {
     
     var body: some Scene {
         MenuBarExtra(currentRace, systemImage: "flag") {
-                List {
-                    Text("Hello World")
-                    Text("Hello World")
-                    Text("Hello World")
-                }
             Button("Bahrain") {
                 currentRace = "Bahrain"
             }
@@ -26,6 +21,9 @@ struct swiftui_menu_barApp: App {
             Button("Australia") {
                 currentRace = "Australia"
             }
+            
+            Text("Hello World")
+
             Divider()
             Button("Quit") {
                 NSApplication.shared.terminate(nil)
