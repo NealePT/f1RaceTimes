@@ -8,16 +8,63 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "9B956CCB-0D71-4778-A7F3-E04B5DE3EC42"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "f1RaceTimes/f1RaceTimesApp.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "25"
-            endingLineNumber = "25"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
             landmarkName = "body"
             landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "9B956CCB-0D71-4778-A7F3-E04B5DE3EC42 - c06dbc5058f40126"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.List&lt;Swift.Never, SwiftUI.TupleView&lt;(SwiftUI.Text, SwiftUI.Text, SwiftUI.Text)&gt;&gt;, SwiftUI.Button&lt;SwiftUI.Text&gt;, SwiftUI.Button&lt;SwiftUI.Text&gt;, SwiftUI.Button&lt;SwiftUI.Text&gt;, SwiftUI.Text, SwiftUI.Text, SwiftUI.Text, SwiftUI.Divider, SwiftUI.Button&lt;SwiftUI.Text&gt;)&gt; in f1RaceTimes.swiftui_menu_barApp.body.getter : some"
+                  moduleName = "f1RaceTimes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nealetaylor/f1RaceTimes/f1RaceTimes/f1RaceTimesApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "1404">
+               </Location>
+               <Location
+                  uuid = "9B956CCB-0D71-4778-A7F3-E04B5DE3EC42 - ef8c36b2e8ad3327"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #4 () -&gt; () in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.List&lt;Swift.Never, SwiftUI.TupleView&lt;(SwiftUI.Text, SwiftUI.Text, SwiftUI.Text)&gt;&gt;, SwiftUI.Button&lt;SwiftUI.Text&gt;, SwiftUI.Button&lt;SwiftUI.Text&gt;, SwiftUI.Button&lt;SwiftUI.Text&gt;, SwiftUI.Text, SwiftUI.Text, SwiftUI.Text, SwiftUI.Divider, SwiftUI.Button&lt;SwiftUI.Text&gt;)&gt; in f1RaceTimes.swiftui_menu_barApp.body.getter : some"
+                  moduleName = "f1RaceTimes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nealetaylor/f1RaceTimes/f1RaceTimes/f1RaceTimesApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "9B956CCB-0D71-4778-A7F3-E04B5DE3EC42 - e6969bbc271c30d5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Button&lt;SwiftUI.Text&gt;, SwiftUI.Button&lt;SwiftUI.Text&gt;, SwiftUI.Button&lt;SwiftUI.Text&gt;, SwiftUI.Text, SwiftUI.Divider, SwiftUI.Button&lt;SwiftUI.Text&gt;)&gt; in f1RaceTimes.swiftui_menu_barApp.body.getter : some"
+                  moduleName = "f1RaceTimes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nealetaylor/f1RaceTimes/f1RaceTimes/f1RaceTimesApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "1772">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

@@ -9,6 +9,7 @@ import SwiftUI
 @main
 struct swiftui_menu_barApp: App {
     @State var currentRace: String = "Bahrain"
+    let races = ["Bahrain", "Saudi Arabia", "Australia"]
     
     var body: some Scene {
         MenuBarExtra(currentRace, systemImage: "flag") {
@@ -27,6 +28,17 @@ struct swiftui_menu_barApp: App {
             Divider()
             Button("Quit") {
                 NSApplication.shared.terminate(nil)
+            }
+            
+        }.menuBarExtraStyle(.window)
+    }
+    
+    @ViewBuilder
+    func ControlCenterView()-> some View{
+        Grid(horizontalSpacing: 12, verticalSpacing: 12) {
+            GridRow {
+                RoundedRectangle(cornerRadius: 12, style: .continuous )
+                    .fill(.white)
             }
         }
     }
