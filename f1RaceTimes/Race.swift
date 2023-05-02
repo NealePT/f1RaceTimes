@@ -14,12 +14,12 @@ struct MenuItem: Identifiable {
     var subMenuItems: [MenuItem]?
 }
 // Main menu items
-let sampleMenuItems = [ MenuItem(name: "Espresso Machines", image: "linea-mini", subMenuItems: espressoMachineMenuItems),
-                        MenuItem(name: "Grinders", image: "swift-mini", subMenuItems: grinderMenuItems),
-                        MenuItem(name: "Other Equipment", image: "espresso-ep", subMenuItems: otherMenuItems)
+let sampleMenuItems = [ MenuItem(name: "Bahrain", image: "bahrainFlag", subMenuItems: bahrainMenuItems),
+                        MenuItem(name: "Saudi Arabia", image: "saudiFlag", subMenuItems: saudiMenuItems),
+                        MenuItem(name: "Australia", image: "australiaFlag", subMenuItems: australiaMenuItems)
                     ]
 // Sub-menu items for Espressco Machines
-let espressoMachineMenuItems = [ MenuItem(name: "Leva", image: "leva-x", subMenuItems: [ MenuItem(name: "Leva X", image: "leva-x"), MenuItem(name: "Leva S", image: "leva-s") ]),
+let bahrainMenuItems = [ MenuItem(name: "Leva", image: "leva-x", subMenuItems: [ MenuItem(name: "Leva X", image: "leva-x"), MenuItem(name: "Leva S", image: "leva-s") ]),
                                  MenuItem(name: "Strada", image: "strada-ep", subMenuItems: [ MenuItem(name: "Strada EP", image: "strada-ep"), MenuItem(name: "Strada AV", image: "strada-av"), MenuItem(name: "Strada MP", image: "strada-mp"), MenuItem(name: "Strada EE", image: "strada-ee") ]),
                                  MenuItem(name: "KB90", image: "kb90"),
                                  MenuItem(name: "Linea", image: "linea-pb-x", subMenuItems: [ MenuItem(name: "Linea PB X", image: "linea-pb-x"), MenuItem(name: "Linea PB", image: "linea-pb"), MenuItem(name: "Linea Classic", image: "linea-classic") ]),
@@ -28,24 +28,15 @@ let espressoMachineMenuItems = [ MenuItem(name: "Leva", image: "leva-x", subMenu
                                 ]
 
 // Sub-menu items for Grinder
-let grinderMenuItems = [ MenuItem(name: "Swift", image: "swift"),
+let saudiMenuItems = [ MenuItem(name: "Swift", image: "swift"),
                          MenuItem(name: "Vulcano", image: "vulcano"),
                          MenuItem(name: "Swift Mini", image: "swift-mini"),
                          MenuItem(name: "Lux D", image: "lux-d")
                         ]
 
 // Sub-menu items for other equipment
-let otherMenuItems = [ MenuItem(name: "Espresso AV", image: "espresso-av"),
+let australiaMenuItems = [ MenuItem(name: "Espresso AV", image: "espresso-av"),
                          MenuItem(name: "Espresso EP", image: "espresso-ep"),
                          MenuItem(name: "Pour Over", image: "pourover"),
                          MenuItem(name: "Steam", image: "steam")
                         ]
-struct Race: Hashable, Codable {
-    var id: Int
-    var name: String
-    var E1: String
-    var E2: String
-    var E3: String
-    var E4: String
-    var E5: String
-}

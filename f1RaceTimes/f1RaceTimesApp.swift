@@ -39,7 +39,7 @@ struct swiftui_menu_barApp: App {
                     Image(item.image)
                         .resizable()
                         .scaledToFit()
-                        .frame(width: 50, height: 50)
+                        .frame(width: 25, height: 25)
 
                     Text(item.name)
                         .font(.system(.title3, design: .rounded))
