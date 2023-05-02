@@ -10,36 +10,46 @@ import SwiftUI
 struct swiftui_menu_barApp: App {
     @State var currentRace: String = "Bahrain"
     let races = ["Bahrain", "Saudi Arabia", "Australia"]
-    
+
+
     var body: some Scene {
         MenuBarExtra(currentRace, systemImage: "flag") {
-            Button("Bahrain") {
-                currentRace = "Bahrain"
-            }
-            Button("Saudi Arabia") {
-                currentRace = "Saudi Arabia"
-            }
-            Button("Australia") {
-                currentRace = "Australia"
-            }
-            
-            Text("Hello World")
 
+//            Button("Bahrain") {
+//                currentRace = "Bahrain"
+//            }
+//            Button("Saudi Arabia") {
+//                currentRace = "Saudi Arabia"
+//            }
+//            Button("Australia") {
+//                currentRace = "Australia"
+//            }
+//
+//            Text("Hello World")
+//            Button(action: {}) {
+//                       HStack {
+//                           Image(systemName: "pawprint.fill")
+//                           Text("Small Button")
+//                       }
+//                   }
+//
+
+            List(sampleMenuItems, children: \.subMenuItems) { item in
+                HStack {
+                    Image(item.image)
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 50, height: 50)
+
+                    Text(item.name)
+                        .font(.system(.title3, design: .rounded))
+                        .bold()
+                }
+            }
             Divider()
             Button("Quit") {
                 NSApplication.shared.terminate(nil)
             }
-            
         }.menuBarExtraStyle(.window)
-    }
-    
-    @ViewBuilder
-    func ControlCenterView()-> some View{
-        Grid(horizontalSpacing: 12, verticalSpacing: 12) {
-            GridRow {
-                RoundedRectangle(cornerRadius: 12, style: .continuous )
-                    .fill(.white)
-            }
-        }
     }
 }
