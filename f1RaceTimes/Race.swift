@@ -28,15 +28,17 @@ let bahrainMenuItems = [ MenuItem(name: "FP1", image: "leva-x"),
                         ]
 
 // Sub-menu items for Saudi GP
-let saudiMenuItems = [ MenuItem(name: "Swift", image: "swift"),
-                         MenuItem(name: "Vulcano", image: "vulcano"),
-                         MenuItem(name: "Swift Mini", image: "swift-mini"),
-                         MenuItem(name: "Lux D", image: "lux-d")
+let saudiMenuItems = [   MenuItem(name: "FP1", image: "swift"),
+                         MenuItem(name: "FP2", image: "vulcano"),
+                         MenuItem(name: "FP3", image: "swift-mini"),
+                         MenuItem(name: "Qualification", image: "lux-d"),
+                         MenuItem(name: "Race", image: "image"),
                         ]
 
 // Sub-menu items for Australia GP
-let australiaMenuItems = [ MenuItem(name: "Espresso AV", image: "espresso-av"),
-                         MenuItem(name: "Espresso EP", image: "espresso-ep"),
-                         MenuItem(name: "Pour Over", image: "pourover"),
-                         MenuItem(name: "Steam", image: "steam")
-                        ]
+let australiaMenuItems = [   MenuItem(name: "FP1", image: "swift"),
+                             MenuItem(name: "FP2", image: "vulcano"),
+                             MenuItem(name: "FP3", image: "swift-mini"),
+                             MenuItem(name: "Qualification", image: "lux-d"),
+                             MenuItem(name: "Race", image: "image"),
+                            ]
