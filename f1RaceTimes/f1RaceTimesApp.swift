@@ -9,32 +9,11 @@ import SwiftUI
 @main
 struct swiftui_menu_barApp: App {
     @State var currentRace: String = "Bahrain"
-    let races = ["Bahrain", "Saudi Arabia", "Australia"]
-
 
     var body: some Scene {
         MenuBarExtra(currentRace, systemImage: "flag") {
 
-//            Button("Bahrain") {
-//                currentRace = "Bahrain"
-//            }
-//            Button("Saudi Arabia") {
-//                currentRace = "Saudi Arabia"
-//            }
-//            Button("Australia") {
-//                currentRace = "Australia"
-//            }
-//
-//            Text("Hello World")
-//            Button(action: {}) {
-//                       HStack {
-//                           Image(systemName: "pawprint.fill")
-//                           Text("Small Button")
-//                       }
-//                   }
-//
-
-            List(sampleMenuItems, children: \.subMenuItems) { item in
+            List(races, children: \.subMenuItems) { item in
                 HStack {
                     Image(item.image)
                         .resizable()
