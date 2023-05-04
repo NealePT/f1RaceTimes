@@ -12,7 +12,10 @@ struct swiftui_menu_barApp: App {
 
     var body: some Scene {
         MenuBarExtra(currentRace, systemImage: "flag") {
+            Text("Formula 1 Race Tracker").font(.system(.title)).padding(.top, 30)
             List(races, children: \.subMenuItems) { item in
+                Divider()
+
                 HStack {
                     Image(item.image)
                         .resizable()
@@ -32,7 +35,6 @@ struct swiftui_menu_barApp: App {
                         .font(.system(.body))
                         .frame(maxWidth: .infinity, alignment: .trailing)
                 }
-                Divider()
             }.frame(minWidth: 500)
             Divider()
             Button("Quit") {
