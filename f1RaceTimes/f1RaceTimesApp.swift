@@ -24,14 +24,13 @@ struct swiftui_menu_barApp: App {
                         .font(.system(.title3, design: .rounded))
                         .bold()
                     
-                    Text(item.time != "" ? item.date : "")
+                    Text(item.time != "" ? item.time : "")
                         .font(.system(.body))
                         .frame(maxWidth: .infinity, alignment: .trailing)
-                    Text(item.time != "" ? item.time : item.date)
+                    Text(item.date)
                         .font(.system(.body))
                         .frame(maxWidth: .infinity, alignment: .trailing)
-                        
-                        
+                    
                 }
             }
             Divider()
