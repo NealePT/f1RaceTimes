@@ -12,7 +12,6 @@ struct swiftui_menu_barApp: App {
 
     var body: some Scene {
         MenuBarExtra(currentRace, systemImage: "flag") {
-
             List(races, children: \.subMenuItems) { item in
                 HStack {
                     Image(item.image)
@@ -30,9 +29,9 @@ struct swiftui_menu_barApp: App {
                     Text(item.date)
                         .font(.system(.body))
                         .frame(maxWidth: .infinity, alignment: .trailing)
-                    
                 }
-            }
+                Divider()
+            }.frame(minWidth: 500)
             Divider()
             Button("Quit") {
                 NSApplication.shared.terminate(nil)
