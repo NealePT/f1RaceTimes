@@ -18,14 +18,16 @@ struct swiftui_menu_barApp: App {
                         .resizable()
                         .scaledToFit()
                         .frame(width: 25, height: 25)
-
+                    
                     Text(item.name)
                         .font(.system(.title3, design: .rounded))
+                        .frame(maxWidth: .infinity, alignment: .leading)
                         .bold()
                     
                     Text(item.time != "" ? item.time : "")
                         .font(.system(.body))
-                        .frame(maxWidth: .infinity, alignment: .trailing)
+                        .frame(maxWidth: .infinity, alignment: .center)
+                    
                     Text(item.date)
                         .font(.system(.body))
                         .frame(maxWidth: .infinity, alignment: .trailing)
