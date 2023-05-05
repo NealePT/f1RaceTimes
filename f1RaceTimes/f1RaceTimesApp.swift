@@ -39,7 +39,7 @@ struct swiftui_menu_barApp: App {
             Divider()
             Button("Quit") {
                 NSApplication.shared.terminate(nil)
-            }
+            }.padding()
         }.menuBarExtraStyle(.window)
     }
 }
