@@ -37,7 +37,7 @@ struct swiftui_menu_barApp: App {
                         .font(.system(.body))
                         .frame(maxWidth: .infinity, alignment: .trailing)
                 }
-            }.frame(minWidth: 500)
+            }.frame(minWidth: 500, minHeight: 800)
             Divider()
             
             Button("Quit") {
