@@ -52,7 +52,7 @@ let australiaMenuItems = [   MenuItem(name: "Practice 1", image: "", date: "Marc
                             ]
 
 // Sub-menu items for Azerbaijan GP
-let azerbaijanMenuItems = [   MenuItem(name: "Practice 1", image: "", date: "April 28", time: "6:00AM"),
+let azerbaijanMenuItems = [  MenuItem(name: "Practice 1", image: "", date: "April 28", time: "6:00AM"),
                              MenuItem(name: "Qualification", image: "", date: "April 28", time: "9:00AM"),
                              MenuItem(name: "Sprint Shootout", image: "", date: "April 29", time: "6:00AM"),
                              MenuItem(name: "Sprint Race", image: "", date: "April 29", time: "9:00AM"),
@@ -61,11 +61,11 @@ let azerbaijanMenuItems = [   MenuItem(name: "Practice 1", image: "", date: "Apr
 
 // Sub-menu items for Miami GP
 let miamiMenuItems = [   MenuItem(name: "Practice 1", image: "", date: "May 5", time: "1:00PM"),
-                             MenuItem(name: "Practice 2", image: "", date: "May 5", time: "4:00PM"),
-                             MenuItem(name: "Practice 3", image: "", date: "May 6", time: "1:00PM"),
-                             MenuItem(name: "Qualification", image: "", date: "May 6", time: "4:00PM"),
-                             MenuItem(name: "Race", image: "", date: "May 7", time: "3:30PM"),
-                            ]
+                         MenuItem(name: "Practice 2", image: "", date: "May 5", time: "4:00PM"),
+                         MenuItem(name: "Practice 3", image: "", date: "May 6", time: "1:00PM"),
+                         MenuItem(name: "Qualification", image: "", date: "May 6", time: "4:00PM"),
+                         MenuItem(name: "Race", image: "", date: "May 7", time: "3:30PM"),
+                        ]
 
 // Sub-menu items for Imola GP
 let imolaMenuItems = [   MenuItem(name: "Practice 1", image: "", date: "May 19", time: "7:30AM"),
@@ -76,25 +76,25 @@ let imolaMenuItems = [   MenuItem(name: "Practice 1", image: "", date: "May 19",
                         ]
 
 // Sub-menu items for Monaco GP
-let monacoMenuItems = [   MenuItem(name: "Practice 1", image: "", date: "May 26", time: "7:30AM"),
-                             MenuItem(name: "Practice 2", image: "", date: "May 26", time: "11:00AM"),
-                             MenuItem(name: "Practice 3", image: "", date: "May 27", time: "6:30AM"),
-                             MenuItem(name: "Qualification", image: "", date: "May 27", time: "1:00AM"),
-                             MenuItem(name: "Race", image: "", date: "May 28", time: "9:00AM"),
-                            ]
+let monacoMenuItems = [  MenuItem(name: "Practice 1", image: "", date: "May 26", time: "7:30AM"),
+                         MenuItem(name: "Practice 2", image: "", date: "May 26", time: "11:00AM"),
+                         MenuItem(name: "Practice 3", image: "", date: "May 27", time: "6:30AM"),
+                         MenuItem(name: "Qualification", image: "", date: "May 27", time: "1:00AM"),
+                         MenuItem(name: "Race", image: "", date: "May 28", time: "9:00AM"),
+                        ]
 
 // Sub-menu items for Spain GP
 let spainMenuItems = [   MenuItem(name: "Practice 1", image: "", date: "June 2", time: "7:30AM"),
-                             MenuItem(name: "Practice 2", image: "", date: "June 2", time: "11:00AM"),
-                             MenuItem(name: "Practice 3", image: "", date: "June 3", time: "6:30AM"),
-                             MenuItem(name: "Qualification", image: "", date: "June 3", time: "10:00AM"),
-                             MenuItem(name: "Race", image: "", date: "June 4", time: "9:00AM"),
-                            ]
+                         MenuItem(name: "Practice 2", image: "", date: "June 2", time: "11:00AM"),
+                         MenuItem(name: "Practice 3", image: "", date: "June 3", time: "6:30AM"),
+                         MenuItem(name: "Qualification", image: "", date: "June 3", time: "10:00AM"),
+                         MenuItem(name: "Race", image: "", date: "June 4", time: "9:00AM"),
+                        ]
 
 // Sub-menu items for Canada GP
-let canadaMenuItems = [   MenuItem(name: "Practice 1", image: "", date: "June 16", time: "1:30PM"),
-                             MenuItem(name: "Practice 2", image: "", date: "June 16", time: "5:00PM"),
-                             MenuItem(name: "Practice 3", image: "", date: "June 17", time: "12:30PM"),
-                             MenuItem(name: "Qualification", image: "", date: "June 17", time: "4:00PM"),
-                             MenuItem(name: "Race", image: "", date: "June 18", time: "2:00PM"),
-                            ]
+let canadaMenuItems = [  MenuItem(name: "Practice 1", image: "", date: "June 16", time: "1:30PM"),
+                         MenuItem(name: "Practice 2", image: "", date: "June 16", time: "5:00PM"),
+                         MenuItem(name: "Practice 3", image: "", date: "June 17", time: "12:30PM"),
+                         MenuItem(name: "Qualification", image: "", date: "June 17", time: "4:00PM"),
+                         MenuItem(name: "Race", image: "", date: "June 18", time: "2:00PM"),
+                        ]
