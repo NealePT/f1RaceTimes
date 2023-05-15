@@ -123,3 +123,23 @@ let hungaryMenuItems = [  MenuItem(name: "Practice 1", image: "", date: "July 21
                          MenuItem(name: "Race", image: "", date: "July 23", time: "9:00AM"),
                         ]
 
+let belgiumMenuItems = [  MenuItem(name: "Practice 1", image: "", date: "July 28", time: "7:30AM"),
+                          MenuItem(name: "Qualifying", image: "", date: "July 28", time: "11:00AM"),
+                          MenuItem(name: "Sprint Shootout", image: "", date: "July 29", time: "6:00AM"),
+                          MenuItem(name: "Sprint", image: "", date: "July 29", time: "10:30AM"),
+                          MenuItem(name: "Race", image: "", date: "July 30", time: "9:00AM"),
+                         ]
+
+let netherlandsMenuItems = [  MenuItem(name: "Practice 1", image: "", date: "August 25", time: "6:30AM"),
+                         MenuItem(name: "Practice 2", image: "", date: "August 25", time: "10:00AM"),
+                         MenuItem(name: "Practice 3", image: "", date: "August 26", time: "5:30AM"),
+                         MenuItem(name: "Qualification", image: "", date: "August 26", time: "9:00AM"),
+                         MenuItem(name: "Race", image: "", date: "August 27", time: "9:00AM"),
+                        ]
+
+let monzaMenuItems = [  MenuItem(name: "Practice 1", image: "", date: "September 1", time: "7:30AM"),
+                         MenuItem(name: "Practice 2", image: "", date: "September 1", time: "11:00AM"),
+                         MenuItem(name: "Practice 3", image: "", date: "September 2", time: "6:30AM"),
+                         MenuItem(name: "Qualification", image: "", date: "September 2", time: "10:00AM"),
+                         MenuItem(name: "Race", image: "", date: "September 3", time: "9:00AM"),
+                        ]
