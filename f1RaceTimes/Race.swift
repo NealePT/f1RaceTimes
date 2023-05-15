@@ -28,6 +28,9 @@ let races = [ MenuItem(name: "Bahrain", image: "bahrainFlag", date: "March 3 - 5
                         MenuItem(name: "Austria", image: "austriaFlag", date: "June 30 - July 2", time: "",subMenuItems: austriaMenuItems),
                         MenuItem(name: "Great Britain", image: "britainFlag", date: "July 7 - July 9", time: "",subMenuItems: britainMenuItems),
                         MenuItem(name: "Hungary", image: "hungaryFlag", date: "July 21 - July 23", time: "",subMenuItems: hungaryMenuItems),
+                        MenuItem(name: "Belgium", image: "belgiumFlag", date: "July 28 - July 30", time: "",subMenuItems: belgiumMenuItems),
+                        MenuItem(name: "Netherlands", image: "netherlandsFlag", date: "August 25 - August 27", time: "",subMenuItems: netherlandsMenuItems),
+                        MenuItem(name: "Monza", image: "italyFlag", date: "September 1 - September 3", time: "",subMenuItems: monzaMenuItems),
                     ]
 
 // Sub-menu items for Bahrain GP
