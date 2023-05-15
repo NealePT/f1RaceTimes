@@ -20,11 +20,14 @@ let races = [ MenuItem(name: "Bahrain", image: "bahrainFlag", date: "March 3 - 5
                         MenuItem(name: "Saudi Arabia", image: "saudiFlag", date: "March 17 - 19", time: "",subMenuItems: saudiMenuItems),
                         MenuItem(name: "Australia", image: "australiaFlag", date: "March 31 - April 2", time: "",subMenuItems: australiaMenuItems),
                         MenuItem(name: "Azerbaijan", image: "azerbaijanFlag", date: "April 28 - April 30", time: "",subMenuItems: azerbaijanMenuItems),
-                        MenuItem(name: "Miami", image: "usFlag", date: "May 5 - May7", time: "",subMenuItems: miamiMenuItems),
+                        MenuItem(name: "Miami", image: "usFlag", date: "May 5 - May 7", time: "",subMenuItems: miamiMenuItems),
                         MenuItem(name: "Imola", image: "italyFlag", date: "May 19 - May 21", time: "",subMenuItems: imolaMenuItems),
                         MenuItem(name: "Monaco", image: "monacoFlag", date: "May 26 - May 28", time: "",subMenuItems: monacoMenuItems),
                         MenuItem(name: "Spain", image: "spainFlag", date: "June 2 - June 4", time: "",subMenuItems: spainMenuItems),
                         MenuItem(name: "Canada", image: "canadaFlag", date: "June 16 - June 18", time: "",subMenuItems: canadaMenuItems),
+                        MenuItem(name: "Austria", image: "austriaFlag", date: "June 30 - July 2", time: "",subMenuItems: austriaMenuItems),
+                        MenuItem(name: "Great Britain", image: "britainFlag", date: "July 7 - July 9", time: "",subMenuItems: britainMenuItems),
+                        MenuItem(name: "Hungary", image: "hungaryFlag", date: "July 21 - July 23", time: "",subMenuItems: hungaryMenuItems),
                     ]
 
 // Sub-menu items for Bahrain GP
