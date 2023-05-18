@@ -15,6 +15,7 @@ struct MenuItem: Identifiable {
     var time: String
     var subMenuItems: [MenuItem]?
 }
+
 // Main menu items
 let races = [ MenuItem(name: "Bahrain", image: "bahrainFlag", date: "March 3 - 5", time: "", subMenuItems: bahrainMenuItems),
                         MenuItem(name: "Saudi Arabia", image: "saudiFlag", date: "March 17 - 19", time: "",subMenuItems: saudiMenuItems),
