@@ -32,10 +32,10 @@ let races = [ MenuItem(name: "Bahrain", image: "bahrainFlag", date: "March 3 - 5
                         MenuItem(name: "Belgium", image: "belgiumFlag", date: "July 28 - 30", time: "",subMenuItems: belgiumMenuItems),
                         MenuItem(name: "Netherlands", image: "netherlandsFlag", date: "August 25 - 27", time: "",subMenuItems: netherlandsMenuItems),
                         MenuItem(name: "Monza", image: "italyFlag", date: "September 1 - 3", time: "",subMenuItems: monzaMenuItems),
-                        MenuItem(name: "Singapore", image: "singaporeFlag", date: "September 15 - 17", time: "",subMenuItems: monzaMenuItems),
-                        MenuItem(name: "Japan", image: "japanFlag", date: "September 22 - 24", time: "",subMenuItems: monzaMenuItems),
-                        MenuItem(name: "Qatar", image: "qatarFlag", date: "October 6 - 8", time: "",subMenuItems: monzaMenuItems),
-                        MenuItem(name: "Austin", image: "usFlag", date: "October 20 - 22", time: "",subMenuItems: monzaMenuItems),
+                        MenuItem(name: "Singapore", image: "singaporeFlag", date: "September 15 - 17", time: "",subMenuItems: singaporeMenuItems),
+                        MenuItem(name: "Japan", image: "japanFlag", date: "September 22 - 24", time: "",subMenuItems: japanMenuItems),
+                        MenuItem(name: "Qatar", image: "qatarFlag", date: "October 6 - 8", time: "",subMenuItems: qatarMenuItems),
+                        MenuItem(name: "Austin", image: "usFlag", date: "October 20 - 22", time: "",subMenuItems: austinMenuItems),
                     ]
 
 // Sub-menu items for Bahrain GP
@@ -157,4 +157,25 @@ let singaporeMenuItems = [  MenuItem(name: "Practice 1", image: "", date: "Septe
                          MenuItem(name: "Practice 3", image: "", date: "September 16", time: "5:30AM"),
                          MenuItem(name: "Qualification", image: "", date: "September 16", time: "9:00AM"),
                          MenuItem(name: "Race", image: "", date: "September 17", time: "8:00AM"),
+                        ]
+
+let japanMenuItems = [  MenuItem(name: "Practice 1", image: "", date: "September 21", time: "10:30PM"),
+                         MenuItem(name: "Practice 2", image: "", date: "September 22", time: "2:00AM"),
+                         MenuItem(name: "Practice 3", image: "", date: "September 22", time: "10:30PM"),
+                         MenuItem(name: "Qualification", image: "", date: "September 23", time: "2:00AM"),
+                         MenuItem(name: "Race", image: "", date: "September 24", time: "1:00AM"),
+                        ]
+
+let qatarMenuItems = [  MenuItem(name: "Practice 1", image: "", date: "October 6", time: "9:30AM"),
+                         MenuItem(name: "Qualifying", image: "", date: "October 6", time: "1:00PM"),
+                         MenuItem(name: "Sprint Shootout", image: "", date: "October 7", time: "9:00AM"),
+                         MenuItem(name: "Sprint", image: "", date: "October 7", time: "1:30PM"),
+                         MenuItem(name: "Race", image: "", date: "October 8", time: "1:00PM"),
+                        ]
+
+let austinMenuItems = [  MenuItem(name: "Practice 1", image: "", date: "October 20", time: "1:30PM"),
+                         MenuItem(name: "Qualifying", image: "", date: "October 20", time: "5:00PM"),
+                         MenuItem(name: "Sprint Shootout", image: "", date: "October 21", time: "1:30PM"),
+                         MenuItem(name: "Sprint", image: "", date: "October 21", time: "6:00PM"),
+                         MenuItem(name: "Race", image: "", date: "October 22", time: "3:00PM"),
                         ]
