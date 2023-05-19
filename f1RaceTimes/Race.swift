@@ -32,6 +32,8 @@ let races = [ MenuItem(name: "Bahrain", image: "bahrainFlag", date: "March 3 - 5
                         MenuItem(name: "Belgium", image: "belgiumFlag", date: "July 28 - 30", time: "",subMenuItems: belgiumMenuItems),
                         MenuItem(name: "Netherlands", image: "netherlandsFlag", date: "August 25 - 27", time: "",subMenuItems: netherlandsMenuItems),
                         MenuItem(name: "Monza", image: "italyFlag", date: "September 1 - 3", time: "",subMenuItems: monzaMenuItems),
+                        MenuItem(name: "Singapore", image: "singaporeFlag", date: "September 15 - 17", time: "",subMenuItems: monzaMenuItems),
+
                     ]
 
 // Sub-menu items for Bahrain GP
@@ -146,4 +148,11 @@ let monzaMenuItems = [  MenuItem(name: "Practice 1", image: "", date: "September
                          MenuItem(name: "Practice 3", image: "", date: "September 2", time: "6:30AM"),
                          MenuItem(name: "Qualification", image: "", date: "September 2", time: "10:00AM"),
                          MenuItem(name: "Race", image: "", date: "September 3", time: "9:00AM"),
+                        ]
+
+let singaporeMenuItems = [  MenuItem(name: "Practice 1", image: "", date: "September 15", time: "5:30AM"),
+                         MenuItem(name: "Practice 2", image: "", date: "September 15", time: "9:00AM"),
+                         MenuItem(name: "Practice 3", image: "", date: "September 16", time: "5:30AM"),
+                         MenuItem(name: "Qualification", image: "", date: "September 16", time: "9:00AM"),
+                         MenuItem(name: "Race", image: "", date: "September 17", time: "8:00AM"),
                         ]
