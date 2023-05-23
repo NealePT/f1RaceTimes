@@ -179,3 +179,31 @@ let austinMenuItems = [  MenuItem(name: "Practice 1", image: "", date: "October 
                          MenuItem(name: "Sprint", image: "", date: "October 21", time: "6:00PM"),
                          MenuItem(name: "Race", image: "", date: "October 22", time: "3:00PM"),
                         ]
+
+let mexicoMenuItems = [  MenuItem(name: "Practice 1", image: "", date: "October 27", time: "2:30PM"),
+                         MenuItem(name: "Practice 2", image: "", date: "October 27", time: "6:00PM"),
+                         MenuItem(name: "Practice 3", image: "", date: "October 28", time: "1:30PM"),
+                         MenuItem(name: "Qualifying", image: "", date: "October 28", time: "5:00PM"),
+                         MenuItem(name: "Race", image: "", date: "October 29", time: "4:00PM"),
+                        ]
+
+let brazilMenuItems = [  MenuItem(name: "Practice 1", image: "", date: "November 3", time: "10:30AM"),
+                         MenuItem(name: "Qualifying", image: "", date: "November 3", time: "2:00PM"),
+                         MenuItem(name: "Sprint Shootout", image: "", date: "November 4", time: "10:00AM"),
+                         MenuItem(name: "Sprint", image: "", date: "November 4", time: "2:30PM"),
+                         MenuItem(name: "Race", image: "", date: "November 5", time: "12:00PM"),
+                        ]
+
+let vegasMenuItems = [  MenuItem(name: "Practice 1", image: "", date: "November 16", time: "11:30PM"),
+                         MenuItem(name: "Practice 2", image: "", date: "November 17", time: "3:00AM"),
+                         MenuItem(name: "Practice 3", image: "", date: "November 17", time: "11:30PM"),
+                         MenuItem(name: "Qualifying", image: "", date: "November 18", time: "3:00AM"),
+                         MenuItem(name: "Race", image: "", date: "November 19", time: "1:00AM"),
+                        ]
+
+let abudhabiMenuItems = [  MenuItem(name: "Practice 1", image: "", date: "November 24", time: "4:30AM"),
+                         MenuItem(name: "Practice 2", image: "", date: "November 24", time: "8:00AM"),
+                         MenuItem(name: "Practice 3", image: "", date: "November 25", time: "5:30AM"),
+                         MenuItem(name: "Qualifying", image: "", date: "November 25", time: "9:00AM"),
+                         MenuItem(name: "Race", image: "", date: "November 26", time: "8:00AM"),
+                        ]
