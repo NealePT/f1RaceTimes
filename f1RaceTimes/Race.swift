@@ -36,6 +36,10 @@ let races = [ MenuItem(name: "Bahrain", image: "bahrainFlag", date: "March 3 - 5
                         MenuItem(name: "Japan", image: "japanFlag", date: "September 22 - 24", time: "",subMenuItems: japanMenuItems),
                         MenuItem(name: "Qatar", image: "qatarFlag", date: "October 6 - 8", time: "",subMenuItems: qatarMenuItems),
                         MenuItem(name: "Austin", image: "usFlag", date: "October 20 - 22", time: "",subMenuItems: austinMenuItems),
+                        MenuItem(name: "Mexico", image: "mexicoFlag", date: "October 27 - 29", time: "",subMenuItems: mexicoMenuItems),
+                        MenuItem(name: "Brazil", image: "brazilFlag", date: "November 3 - 5", time: "",subMenuItems: brazilMenuItems),
+                        MenuItem(name: "Las Vegas", image: "usFlag", date: "November 16 - 18", time: "",subMenuItems: vegasMenuItems),
+                        MenuItem(name: "Abu Dhabi", image: "uaeFlag", date: "November 24 - 26", time: "",subMenuItems: abudhabiMenuItems),
                     ]
 
 // Sub-menu items for Bahrain GP
