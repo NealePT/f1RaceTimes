@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "Flag-Monaco.png",
+      "filename" : "mc-flag.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "Flag-Monaco 1.png",
+      "filename" : "mc-flag 1.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "Flag-Monaco 2.png",
+      "filename" : "mc-flag 2.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
