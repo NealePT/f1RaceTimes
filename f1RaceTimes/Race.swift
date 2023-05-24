@@ -94,7 +94,7 @@ let imolaMenuItems = [   MenuItem(name: "Practice 1", image: "", date: "May 19",
 let monacoMenuItems = [  MenuItem(name: "Practice 1", image: "", date: "May 26", time: "7:30AM"),
                          MenuItem(name: "Practice 2", image: "", date: "May 26", time: "11:00AM"),
                          MenuItem(name: "Practice 3", image: "", date: "May 27", time: "6:30AM"),
-                         MenuItem(name: "Qualification", image: "", date: "May 27", time: "1:00AM"),
+                         MenuItem(name: "Qualification", image: "", date: "May 27", time: "10:00AM"),
                          MenuItem(name: "Race", image: "", date: "May 28", time: "9:00AM"),
                         ]
 
