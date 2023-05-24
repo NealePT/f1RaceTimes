@@ -5,7 +5,7 @@ This is a project I created to keep track of Formula 1 event times so I wouldn't
 
 ## Views
 
-![Video of app in use](https://github.com/NealePT/f1RaceTimes/assets/89871393/2e807563-d179-4f37-9de8-d5b4fd4bc084)
+![Video of app in use](https://github.com/NealePT/f1RaceTimes/blob/main/f1RaceTimes/Assets.xcassets/Screen%20Recording%202023-05-24%20at%202.07.36%20PM.gif)
 
 *App in use*
 
