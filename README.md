@@ -5,7 +5,15 @@ This is a project I created to keep track of Formula 1 event times so I wouldn't
 
 ## Views
 
-![Screenshot of app dropdown](https://github.com/NealePT/f1RaceTimes/assets/89871393/8e3a0193-2d2f-42a2-8acd-86509202fc11)
+![Video of app in use](https://github.com/NealePT/f1RaceTimes/assets/89871393/2e807563-d179-4f37-9de8-d5b4fd4bc084)
 
 *App in use*
 
+
+![Screenshot of home](https://github.com/NealePT/f1RaceTimes/assets/89871393/d2fa3d56-ecb8-483c-8352-8e220c3c814f)
+
+*Main Screen*
+
+![Screenshot of app dropdown](https://github.com/NealePT/f1RaceTimes/assets/89871393/8e3a0193-2d2f-42a2-8acd-86509202fc11)
+
+*Race dropdown*
