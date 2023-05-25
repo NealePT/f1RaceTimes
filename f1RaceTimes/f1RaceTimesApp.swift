@@ -8,7 +8,7 @@ import SwiftUI
 
 @main
 struct swiftui_menu_barApp: App {
-    @State var currentRace: String = "Bahrain"
+    @State var currentRace: String = ""
 
     var body: some Scene {
         MenuBarExtra(currentRace, systemImage: "flag") {
